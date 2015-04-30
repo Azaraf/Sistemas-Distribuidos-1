@@ -28,7 +28,6 @@ while True:
 
     recibido = s.recv(4096)
     print(recibido)
-    
  
     #Si por alguna razon el mensaje es close cerramos la conexion
     if mensaje == "close":
