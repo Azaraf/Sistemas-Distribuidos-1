@@ -15,6 +15,7 @@ s.bind(("", 5000))
  
 #Aceptamos conexiones entrantes con el metodo listen, y ademas aplicamos como parametro
 #El numero de conexiones entrantes que vamos a aceptar
+
 s.listen(1)
  
 #Instanciamos un objeto sc (socket cliente) para recibir datos, al recibir datos este 

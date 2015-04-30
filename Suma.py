@@ -2,7 +2,6 @@
 import socket
 import json
 
-
 def main():
 	s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 	s.bind(("", 5002))
